@@ -1,0 +1,12 @@
+public class FileLesson2{
+	public static void main(String[] args)throws Exception{
+		FileInputStream fis=new FileInputStream("data.csv");
+		InputStreamReader isr=new InputStreamReader(fis,"utf-8");
+		BufferedReader br=new BufferedReader(isr);
+		String line;
+		while((line = br.readLine()) != null){
+		System.out.println(line);
+		}
+		br.close();
+	}
+}
