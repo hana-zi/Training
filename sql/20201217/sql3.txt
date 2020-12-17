@@ -1,0 +1,11 @@
+カラム別名 AS句
+SELECT title AS タイトル,price AS 価格 FROM books;
+
+重複削除
+SELECT DISTINCT category FROM books;
+
+SELECT price,price+100,'固定値'FROM books;
+
+SELECT floor(120*1.08);
+
+
