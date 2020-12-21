@@ -27,3 +27,5 @@ public class Main{
 		h3.run();
 	}
 }
+
+//要素数3のダブル配列作成　double[] nums=new double[3];
